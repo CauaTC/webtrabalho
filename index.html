@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Conhecimentos Gerais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz de Conhecimentos Gerais</h1>
+        <div id="quiz-container">
+            <div id="pergunta-container">
+                <p id="pergunta"></p>
+            </div>
+            <div id="opcoes-container">
+                <button class="opcao" onclick="verificarResposta(0)"></button>
+                <button class="opcao" onclick="verificarResposta(1)"></button>
+                <button class="opcao" onclick="verificarResposta(2)"></button>
+                <button class="opcao" onclick="verificarResposta(3)"></button>
+            </div>
+        </div>
+        <div id="resultado-container">
+            <p id="resultado"></p>
+            <button id="proxima-btn" onclick="proximaPergunta()">Próxima Pergunta</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
