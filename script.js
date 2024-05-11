@@ -111,5 +111,4 @@ function mostrarResultado() {
     document.getElementById("quiz-container").style.display = "none";
     document.getElementById("resultado-container").style.display = "block";
 }
-
 carregarPergunta();

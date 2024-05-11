@@ -48,7 +48,7 @@ h1 {
 }
 
 .opcao:hover {
-    background-color: #6a0dad;
+    background-color: #331d42;
 }
 
 #resultado-container {
@@ -70,5 +70,10 @@ h1 {
 }
 
 #proxima-btn:hover {
-    background-color: #6a0dad;
+    background-color: #331d42;
+}
+
+img{
+    width: 100%;
+    height: auto;
 }
